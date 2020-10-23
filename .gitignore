@@ -1,0 +1,19 @@
+.DS_Store
+
+.idea
+*.iml
+*.swp
+
+target
+
+# intellij files
+*.iml
+.idea
+
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+.bsp
