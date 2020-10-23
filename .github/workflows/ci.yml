@@ -5,9 +5,9 @@ on: [push]
 jobs:
   test:
     runs-on: ubuntu-latest
-  steps:
-  - uses: actions/checkout@v1
-  - uses: olafurpg/setup-scala@v10
-  - name: prep
-    run: |
-      sbt prep
+    steps:
+    - uses: actions/checkout@v1
+    - uses: olafurpg/setup-scala@v10
+    - name: prep
+      run: |
+        sbt prep
