@@ -212,12 +212,12 @@ This file is divided into 3 sections:
 
     <check level="error" class="org.scalastyle.scalariform.ImportOrderChecker" enabled="true">
         <parameters>
-            <parameter name="groups">java,scala,play,3rdParty,letgo</parameter>
+            <parameter name="groups">java,scala,play,3rdParty,template</parameter>
             <parameter name="group.java">javax?\..*</parameter>
             <parameter name="group.scala">scala\..*</parameter>
             <parameter name="group.play">play\..*</parameter>
-            <parameter name="group.3rdParty">(?!com\.letgo\.).*</parameter>
-            <parameter name="group.letgo">com\.letgo\..*</parameter>
+            <parameter name="group.3rdParty">(?!com\.template\.).*</parameter>
+            <parameter name="group.template">com\.template\..*</parameter>
         </parameters>
     </check>
 
