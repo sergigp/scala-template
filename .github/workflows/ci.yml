@@ -11,3 +11,6 @@ jobs:
     - name: prep
       run: |
         sbt prep
+    - name: test
+      run: |
+        sbt test
